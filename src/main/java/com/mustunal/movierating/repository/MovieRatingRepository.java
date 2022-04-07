@@ -16,13 +16,13 @@ public class MovieRatingRepository {
     }
 
     private void initMovieRatingMap() {
-        MovieRating movieRating = new MovieRating(1,8);
+        MovieRating movieRating = new MovieRating(1,8.2f);
         movieRatingMap.put(1L,movieRating);
 
-        movieRating = new MovieRating(2,9);
+        movieRating = new MovieRating(2,9.3f);
         movieRatingMap.put(2L,movieRating);
 
-        movieRating = new MovieRating(3,7);
+        movieRating = new MovieRating(3,7.4f);
         movieRatingMap.put(3L,movieRating);
     }
 

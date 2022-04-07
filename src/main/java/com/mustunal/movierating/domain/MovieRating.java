@@ -3,12 +3,12 @@ package com.mustunal.movierating.domain;
 public class MovieRating {
 
     private long id;
-    private int rating;
+    private float rating;
 
     public MovieRating() {
     }
 
-    public MovieRating(long id, int rating) {
+    public MovieRating(long id, float rating) {
         this.id = id;
         this.rating = rating;
     }
@@ -21,11 +21,11 @@ public class MovieRating {
         this.id = id;
     }
 
-    public int getRating() {
+    public float getRating() {
         return rating;
     }
 
-    public void setRating(int rating) {
+    public void setRating(float rating) {
         this.rating = rating;
     }
 }
