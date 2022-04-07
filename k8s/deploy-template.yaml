@@ -169,7 +169,7 @@ parameters:
   - name: APP_GIT_URL
     displayName: Application Source Git URL
     required: true
-    value: https://github.com/mustunal/director-info
+    #value: https://github.com/mustunal/movie-rating
   - name: BRANCH_NAME
     displayName: Branch Name
     required: true
